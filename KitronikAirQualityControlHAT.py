@@ -382,7 +382,7 @@ class KitronikOLED():
         if line < 1: line = 1
         if line > 6: line = 6
         y = (line * 11) - 10
-        (font_width, font_height) = self.font.getsize(text)
+        (font_width, font_height) = self.font.getbbox(text)[2:4]
         self.draw.text((x_offset, y), text, font = self.font, fill = 1)
 
     # Make what has been set to display actually appear on the screen
