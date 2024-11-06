@@ -1,0 +1,19 @@
+{
+    "name": "kitronik-air-quality-control-hat",
+    "version": "1.0.0",
+    "description": "A package for controlling the Kitronik Air Quality Control HAT using a Raspberry Pi. Fanmade",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Kitronik(TM), Bilal ELKHATABI",
+    "dependencies": {
+      "serialport": "^10.4.0",
+      "onoff": "^6.0.0",
+      "pigpio": "^1.2.3",
+      "i2c-bus": "^5.2.2",
+      "jimp": "^0.16.1",
+      "fs": "0.0.1-security",
+      "influx": "^5.7.0"
+    }
+  }
